@@ -1,0 +1,13 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+ Downloading artifact: CUDA_compat
+ Downloading artifact: CUDA_compat
+┌─────────────────┬─────────┬─────────┬───────────┐
+│         Variant │ Runtime │   FLOPS │ Bandwidth │
+│                 │      ms │ GFLOP/s │      GB/s │
+├─────────────────┼─────────┼─────────┼───────────┤
+│ Broadcast (CPU) │ 185.192 │ 5.52938 │   33.1763 │
+│ Broadcast (GPU) │ 5.00901 │ 204.432 │   1226.59 │
+│     CUDA kernel │ 4.58281 │ 223.444 │   1340.66 │
+│          CUBLAS │ 4.56936 │ 224.101 │   1344.61 │
+└─────────────────┴─────────┴─────────┴───────────┘
+Theoretical Memory Bandwidth: 1555 GB/s

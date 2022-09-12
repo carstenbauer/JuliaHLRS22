@@ -1,0 +1,9 @@
+**/.DS_Store
+**/.ipynb_checkpoints
+**/alloc-profile.pb.gz
+**/profile.pb.gz
+JuliaHLRS22.code-workspace
+.CondaPkg
+.vscode
+**/**.nsys-rep
+**/**.sqlite
