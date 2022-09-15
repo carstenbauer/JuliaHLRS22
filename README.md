@@ -8,6 +8,15 @@ A 3.5-day workshop that will take place in Stuttgart the [High Performance Compu
 
 Hosted by the [High Performance Computing Center Stuttgart (HLRS)](https://www.hlrs.de/) and the [Paderborn Center for Parallel Computing (PC2)](https://pc2.uni-paderborn.de/).
 
+<div style="float: left">
+ <a href="https://www.hlrs.de/"><img src="https://user-images.githubusercontent.com/187980/190168233-6f96774f-ed0a-44cc-b1b5-3ba0b75d39f8.svg" height=100px></a>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ <a href="https://pc2.uni-paderborn.de/"><img src="https://user-images.githubusercontent.com/187980/190167755-ead6173d-fb87-40da-ae0f-f0c99e72c22b.png" height=100px></a>
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+ <a href="https://www.nhr-verein.de/"><img src="https://user-images.githubusercontent.com/187980/190169322-89560987-69cf-4c6f-9236-993704461763.svg" height=100px></a>
+</div>
+
+
 ## Tentative schedule
 
 <a href="https://github.com/carstenbauer/JuliaHLRS22/raw/main/orga/schedule/schedule.pdf"><img src="https://github.com/carstenbauer/JuliaHLRS22/raw/main/orga/schedule/schedule.png" width=720px></a>
