@@ -1,2 +1,2 @@
 [deps]
-numpy = "=1.23.1"
+numpy = ""
