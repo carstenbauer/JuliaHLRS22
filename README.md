@@ -27,26 +27,35 @@ I prepared a little [digital handout](https://github.com/carstenbauer/JuliaHLRS2
 
 ## Preparing for the workshop (if you bring your own device)
 
-### Software and workshop materials
+### Software
 
 What you need (in short):
   * [Julia 1.8](https://julialang.org/)
     * I recommend to use [juliaup](https://github.com/JuliaLang/juliaup) to install and manage Julia versions!
   * [Visual Studio Code](https://code.visualstudio.com/), including its [Julia Extension](https://www.julia-vscode.org/).
   * [Jupyter Lab](https://jupyter.org/) (technically optional, since VS Code can also open `.ipynb` files)
-  * The workshop materials, i.e. this GitHub repository
+  * [LIKWID](https://github.com/RRZE-HPC/likwid) (optional, see instructions below)
 
-**Note:** I might still change some of the workshop materials. To be on the safe side, make sure you update your local instance of the repository right before the start of the workshop. (You can always delete your local copy and redownload/`git pull`.)
+### Workshop materials & Julia dependencies
 
-### Instantiating & precompiling the Julia environment
+To download the workshop materials, i.e. this GitHub repository, and to install all Julia (and a few Python) dependencies, run the following:
 
-Navigate to your local copy of this repository and run
-
-```
+```bash
+git clone https://github.com/carstenbauer/JuliaHLRS22
+cd JuliaHLRS22
 julia install.jl
 ```
 
-This will download all the necessary Julia (and a few Python) dependencies.
+**Note:** I might still change some of the workshop materials. To be on the safe side, make sure you update your local instance of the repository right before the start of the workshop. (You can always delete your local copy and redownload/`git pull`.)
+
+### Install LIKWID
+
+You can either try to install LIKWID yourself or use the following commands (to be executed at the root of the `JuliaHLRS22` folder):
+
+```bash
+cd orga/likwid_local_install
+sh install_likwid.sh
+```
 
 ## Static HTML
 
