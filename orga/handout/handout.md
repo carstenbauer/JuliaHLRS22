@@ -61,12 +61,12 @@ We've already instantiated the course environment for you such that all Julia pa
 
 To get an interactive session on a Hawk compute node run
 ```bash
-qsub -I -l select=1:node_type=rome -l walltime=01:00:00
+qsub -I -q julia -l select=1:node_type=rome -l walltime=01:00:00
 ```
 or `sh get-cpu-node-interactive.sh` within your HOME directory.
 Here, `-I` indicates interactive mode and the walltime is set to one hour. If you plan to use **MPI**, use the following to get an interactive session or run `sh get-cpu-node-interactive-MPI.sh` in your HOME directory.
 ```bash
-qsub -I -l select=1:node_type=rome:mpiprocs=128 -l walltime=01:00:00
+qsub -I -q julia -l select=1:node_type=rome:mpiprocs=128 -l walltime=01:00:00
 ```
 
 ### Job submission
@@ -77,6 +77,7 @@ If you want to submit a non-interactive job, you first need to create a job file
 #!/bin/bash
 #PBS -N myjob # Change to whatever you like
 #PBS -l select=1:node_type=rome
+#PBS -q julia
 #PBS -l walltime=00:30:00 # 30 minutes - change to whatever necessary.
 #PBS -j oe
 #PBS -o hawk_job.output

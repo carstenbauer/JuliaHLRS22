@@ -25,16 +25,16 @@ Hosted by the [High Performance Computing Center Stuttgart (HLRS)](https://www.h
 
 I prepared a little [digital handout](https://github.com/carstenbauer/JuliaHLRS22/blob/main/orga/handout/handout.md) ([PDF version](https://github.com/carstenbauer/JuliaHLRS22/blob/main/orga/handout/handout.pdf)) for the course which contains some practical information about Hawk and the local machines. For example, it gives brief instructions on how to get an interactive compute-node session with Julia on the cluster.
 
-## Preparing for the workshop (if you bring your own device)
+## Optional: Preparing for the workshop (if you bring your own device)
+
+**Important note:** We will provide preconfigured Laptops for the course and you don't need to bring your own device! If you want to bring it, you should only use it to interactively follow along (Jupyter notebooks). You won't be able to use it for the exercises that are supposed to be done on the Hawk cluster as you won't be able to access the latter from your private device.
 
 ### Software
 
 What you need (in short):
   * [Julia 1.8](https://julialang.org/)
     * I recommend to use [juliaup](https://github.com/JuliaLang/juliaup) to install and manage Julia versions!
-  * [Visual Studio Code](https://code.visualstudio.com/), including its [Julia Extension](https://www.julia-vscode.org/) and [Remote SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh).
-  * [Jupyter Lab](https://jupyter.org/) (technically optional, since VS Code can also open `.ipynb` files)
-  * [LIKWID](https://github.com/RRZE-HPC/likwid) (optional, see instructions below)
+  * [Jupyter Lab](https://jupyter.org/)
 
 ### Workshop materials & Julia dependencies
 
@@ -48,7 +48,7 @@ julia install.jl
 
 **Note:** I might still change some of the workshop materials. To be on the safe side, make sure you update your local instance of the repository right before the start of the workshop. (You can always delete your local copy and redownload/`git pull`.)
 
-### Install LIKWID
+### Optional: Install LIKWID
 
 You can either try to install LIKWID yourself or use the following commands (to be executed at the root of the `JuliaHLRS22` folder):
 
