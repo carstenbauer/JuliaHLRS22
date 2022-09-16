@@ -39,13 +39,12 @@ It's recommended to run the MPI parts on the cluster. But if you want to use MPI
 ## Hawk Cluster
 
 **Note: There is no Internet connection on Hawk.**
-
 ### Logging in
 
-**TBD**
+**Note: You should not use your private laptop to acces Hawk!**
 
 ```bash
-ssh userXY@....
+ssh hlrskXY@hawk.hww.hlrs.de
 ```
 
 ### Julia on Hawk
