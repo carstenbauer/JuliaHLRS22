@@ -2,6 +2,33 @@
 
 ## Local Machine
 
+### Juptyer Lab
+
+Start Jupyter with the following command, ideally in the `$HOME` directory.
+
+```
+jupyter lab
+```
+
+* Evaluate a cell: `Ctrl+Enter`
+* Evaluate a cell and move to next: `Shift+Enter`
+* Create a new cell below: `Esc B`
+* Delete a cell: `Esc X`
+
+### Visual Studio Code
+
+* Open a regular Terminal: `Ctrl+~`
+* Open integrated Julia REPL: `Alt-J Alt-O`
+* Kill integrated Julia REPL: `Alt-J Alt-K`
+* Restart integrated Julia REPL: `Alt-J Alt-R`
+* Execute a line/block of code: `Shift+Enter` and `Ctrl+Enter` (similar to Jupyter)
+
+### Julia
+
+* `]` to get into package manager (Pkg) mode
+* `?` to get into help mode
+* `;` to get into shell mode
+
 ### Using MPI
 
 It's recommended to run the MPI parts on the cluster. But if you want to use MPI on the local machine, you need to use `~/.julia/bin/mpiexecjl` instead of just `mpirun` or `mpiexec`. For example, to run a MPI program with 4 ranks use
@@ -14,6 +41,8 @@ It's recommended to run the MPI parts on the cluster. But if you want to use MPI
 **Note: There is no Internet connection on Hawk.**
 
 ### Logging in
+
+**TBD**
 
 ```bash
 ssh userXY@....
