@@ -32,7 +32,7 @@ I prepared a little [digital handout](https://github.com/carstenbauer/JuliaHLRS2
 What you need (in short):
   * [Julia 1.8](https://julialang.org/)
     * I recommend to use [juliaup](https://github.com/JuliaLang/juliaup) to install and manage Julia versions!
-  * [Visual Studio Code](https://code.visualstudio.com/), including its [Julia Extension](https://www.julia-vscode.org/).
+  * [Visual Studio Code](https://code.visualstudio.com/), including its [Julia Extension](https://www.julia-vscode.org/) and [Remote SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh).
   * [Jupyter Lab](https://jupyter.org/) (technically optional, since VS Code can also open `.ipynb` files)
   * [LIKWID](https://github.com/RRZE-HPC/likwid) (optional, see instructions below)
 
