@@ -34,6 +34,7 @@ I prepared a little [digital handout](https://github.com/carstenbauer/JuliaHLRS2
 What you need (in short):
   * [Julia 1.8](https://julialang.org/)
     * I recommend to use [juliaup](https://github.com/JuliaLang/juliaup) to install and manage Julia versions!
+    * `curl -fsSL https://install.julialang.org | sh`
   * [Jupyter Lab](https://jupyter.org/)
 
 ### Workshop materials & Julia dependencies
